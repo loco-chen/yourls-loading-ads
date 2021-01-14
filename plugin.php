@@ -134,7 +134,7 @@ function loco_loading_display_page() {
 
 
 
-// Add our QR Code Button to the Admin interface
+// Add Admin interface
 yourls_add_filter( 'table_add_row_cell_array', 'loco_loading_ads_checkbox' );
 function loco_loading_ads_checkbox($cells, $keyword, $url, $title, $ip, $clicks, $timestamp ){
 	
